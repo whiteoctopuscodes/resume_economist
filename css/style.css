@@ -63,6 +63,10 @@ header {
     font-size: 30px;
     line-height: 120%;
 }
+.money{
+    margin-top: 10px;
+}
+
 
 .about h2 {
     margin-bottom: 10px;
@@ -103,9 +107,24 @@ header {
     align-items: baseline;
     padding: 20px 15px;
 }
-.contacts-item a:hover {
+.contact-link:hover {
     color: #e7b17a;
 }
+.button {
+    margin-top: 20px;
+    margin-left: 24px;
+    padding: 20px 40px;
+
+    background-color: #F2F2F2;
+    color: currentColor;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: #e7b17a;
+    color: #FFFFFF;
+}
+/*<li class="contacts-item"><a href="./images/main-photo.jpeg" class="button" target="_blank" download>Завантажити резюме</a></li>*/
+
 
 .work-info {
     display: flex;
