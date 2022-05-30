@@ -104,7 +104,7 @@ header {
 }
 .contacts-item a {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     padding: 20px 15px;
 }
 .contact-link:hover {
