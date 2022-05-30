@@ -127,6 +127,7 @@ header {
 
 
 .work-info {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -144,6 +145,7 @@ header {
     font-size: 12px;
     line-height: 120%;
 }
+
 
 .experience {
     display: flex;
@@ -179,6 +181,8 @@ header {
     width: 200px;
     padding-left: 50px;
     border-left: 1px solid #ABABAB;
+}
+.abilities {
 }
 .abilities-item h2{
     margin-bottom: 30px;
