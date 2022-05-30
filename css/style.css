@@ -92,16 +92,15 @@ header {
 
 .contacts-item {
     display: flex;
-    align-items: baseline;
     color: #818181;
 }
 .contacts-item svg {
     fill: currentColor;
     margin-right: 15px;
-    width: 16px;
-    height: 16px;
 }
 .contacts-item a {
+    display: flex;
+    align-items: baseline;
     padding: 20px 15px;
 }
 .contacts-item a:hover {
