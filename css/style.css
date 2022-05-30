@@ -63,18 +63,33 @@ header {
     font-size: 30px;
     line-height: 120%;
 }
-.name p {
 
-}
 .about h2 {
     margin-bottom: 10px;
     color: #818181;
 }
 .about p{
-    padding: 20px 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    color: #4c4c4c;
+    text-indent: 1.5em;
+    letter-spacing: 150%;
     background-color: #F2F2F2;
     border-radius: 4px;
 }
+.about p + .about p {
+    margin-bottom: 15px;
+}
+.about p:nth-child(2) {
+    padding-top: 10px;
+}
+.about p:last-child {
+    padding-bottom: 10px;
+}
+
 .contacts-item {
     display: flex;
     align-items: center;
@@ -111,25 +126,18 @@ header {
     font-size: 12px;
     line-height: 120%;
 }
-.contant {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .experience {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start
 }
 .experience-list li{
     margin-left: 10px;
     margin-bottom: 10px;
 }
 .experience-item {
-    display: block;
     margin-bottom: 50px;
-    width: 419px;
+    width: calc((100% - 75px) / 2);
     padding: 30px 20px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
