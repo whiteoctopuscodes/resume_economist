@@ -92,7 +92,7 @@ header {
 
 .contacts-item {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     color: #818181;
 }
 .contacts-item svg {
